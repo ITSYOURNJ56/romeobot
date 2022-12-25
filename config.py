@@ -1,16 +1,16 @@
 from os import getenv
 
-API_ID = int(getenv("API_ID", "15217822")) #optional
-API_HASH = getenv("API_HASH", "01224df6690e9f10fd85819cb1ef6f21") #optional
+API_ID = int(getenv("API_ID", "15637856")) #optional
+API_HASH = getenv("API_HASH", "521a26ceed82a85420d580989373d817") #optional
 
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5127230582").split()))
-OWNER_ID = int(getenv("OWNER_ID", "1651260016"))
+OWNER_ID = int(getenv("OWNER_ID", "1193388225"))
 MONGO_URL = getenv("MONGO_URL", "mongodb+srv://Oyehoye143:Oyehoye143@cluster0.dovd6yi.mongodb.net/?retryWrites=true&w=majority") 
-BOT_TOKEN = getenv("BOT_TOKEN", "5582879098:AAHz_k5_eN0e9l7tPMbqZ5T_5_3y3zKG_Bc")
+BOT_TOKEN = getenv("BOT_TOKEN", "5824879205:AAHLj_ub7Xy1zs2bKa-wNKLtNeL_9tjQxtU")
 ALIVE_PIC = getenv("ALIVE_PIC", "https://telegra.ph/file/74607f92f18218ae4d61e.jpg")
 ALIVE_TEXT = getenv("ALIVE_TEXT", "NJ")
-PM_LOGGER = getenv("PM_LOGGER", "-1001882915379")
-LOG_GROUP = getenv("LOG_GROUP", "-1001882915379")
+PM_LOGGER = getenv("PM_LOGGER", "-1001883497468")
+LOG_GROUP = getenv("LOG_GROUP", "-1001883497468")
 GIT_TOKEN = getenv("GIT_TOKEN", "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") #personal access token
 REPO_URL = getenv("REPO_URL", "https://github.com/Romeo-RJ/ROMEO-USERBOT")
 BRANCH = getenv("BRANCH", "master") #don't change
